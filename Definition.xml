@@ -1,0 +1,187 @@
+﻿<conmas>
+  <top>
+    <defTopId>491</defTopId>
+    <defTopName>写真報告書160928</defTopName>
+    <repTopName></repTopName>
+    <remarksValue1></remarksValue1>
+    <remarksValue2></remarksValue2>
+    <remarksValue3></remarksValue3>
+    <remarksValue4></remarksValue4>
+    <remarksValue5></remarksValue5>
+    <remarksValue6></remarksValue6>
+    <remarksValue7></remarksValue7>
+    <remarksValue8></remarksValue8>
+    <remarksValue9></remarksValue9>
+    <remarksValue10></remarksValue10>
+    <createRoleMode></createRoleMode>
+    <createUserId></createUserId>
+    <pdfReplacePage></pdfReplacePage>
+    <pdfFileName></pdfFileName>
+    <systemKey1></systemKey1>
+    <systemKey2></systemKey2>
+    <systemKey3></systemKey3>
+    <systemKey4></systemKey4>
+    <systemKey5></systemKey5>
+    <sheets>
+      <sheet>
+        <sheetNo>1</sheetNo>
+        <defSheetName>工事写真1</defSheetName>
+        <sheetName></sheetName>
+        <remarksValue1></remarksValue1>
+        <remarksValue2></remarksValue2>
+        <remarksValue3></remarksValue3>
+        <remarksValue4></remarksValue4>
+        <remarksValue5></remarksValue5>
+        <remarksValue6></remarksValue6>
+        <remarksValue7></remarksValue7>
+        <remarksValue8></remarksValue8>
+        <remarksValue9></remarksValue9>
+        <remarksValue10></remarksValue10>
+        <referenceType1></referenceType1>
+        <referenceName1></referenceName1>
+        <referenceValue1></referenceValue1>
+        <referenceType2></referenceType2>
+        <referenceName2></referenceName2>
+        <referenceValue2></referenceValue2>
+        <referenceType3></referenceType3>
+        <referenceName3></referenceName3>
+        <referenceValue3></referenceValue3>
+        <referenceType4></referenceType4>
+        <referenceName4></referenceName4>
+        <referenceValue4></referenceValue4>
+        <referenceType5></referenceType5>
+        <referenceName5></referenceName5>
+        <referenceValue5></referenceValue5>
+        <referenceType6></referenceType6>
+        <referenceName6></referenceName6>
+        <referenceValue6></referenceValue6>
+        <referenceType7></referenceType7>
+        <referenceName7></referenceName7>
+        <referenceValue7></referenceValue7>
+        <referenceType8></referenceType8>
+        <referenceName8></referenceName8>
+        <referenceValue8></referenceValue8>
+        <referenceType9></referenceType9>
+        <referenceName9></referenceName9>
+        <referenceValue9></referenceValue9>
+        <referenceType10></referenceType10>
+        <referenceName10></referenceName10>
+        <referenceValue10></referenceValue10>
+        <clusters>
+          <cluster>
+            <sheetNo>1</sheetNo>
+            <clusterId>0</clusterId>
+            <clusterName>anken_no</clusterName>
+            <value></value>
+            <remarksValue1></remarksValue1>
+            <remarksValue2></remarksValue2>
+            <remarksValue3></remarksValue3>
+            <remarksValue4></remarksValue4>
+            <remarksValue5></remarksValue5>
+            <remarksValue6></remarksValue6>
+            <remarksValue7></remarksValue7>
+            <remarksValue8></remarksValue8>
+            <remarksValue9></remarksValue9>
+            <remarksValue10></remarksValue10>
+            <comment></comment>
+            <clusterNameChange>{ignore}</clusterNameChange>
+            <mobileListDisplayNo>{ignore}</mobileListDisplayNo>
+            <mobileDisplay>{ignore}</mobileDisplay>
+            <maximum>{ignore}</maximum>
+            <minimum>{ignore}</minimum>
+            <allowMaxValue>{ignore}</allowMaxValue>
+            <allowMinValue>{ignore}</allowMinValue>
+            <editUser></editUser>
+            <editUserName></editUserName>
+            <editTime></editTime>
+            <gps>
+              <lat></lat>
+              <lon></lon>
+              <alt></alt>
+            </gps>
+          </cluster>
+        </clusters>
+        <grammars />
+      </sheet>
+      <sheet>
+        <sheetNo>2</sheetNo>
+        <defSheetName>工事写真(2)</defSheetName>
+        <sheetName></sheetName>
+        <remarksValue1></remarksValue1>
+        <remarksValue2></remarksValue2>
+        <remarksValue3></remarksValue3>
+        <remarksValue4></remarksValue4>
+        <remarksValue5></remarksValue5>
+        <remarksValue6></remarksValue6>
+        <remarksValue7></remarksValue7>
+        <remarksValue8></remarksValue8>
+        <remarksValue9></remarksValue9>
+        <remarksValue10></remarksValue10>
+        <referenceType1></referenceType1>
+        <referenceName1></referenceName1>
+        <referenceValue1></referenceValue1>
+        <referenceType2></referenceType2>
+        <referenceName2></referenceName2>
+        <referenceValue2></referenceValue2>
+        <referenceType3></referenceType3>
+        <referenceName3></referenceName3>
+        <referenceValue3></referenceValue3>
+        <referenceType4></referenceType4>
+        <referenceName4></referenceName4>
+        <referenceValue4></referenceValue4>
+        <referenceType5></referenceType5>
+        <referenceName5></referenceName5>
+        <referenceValue5></referenceValue5>
+        <referenceType6></referenceType6>
+        <referenceName6></referenceName6>
+        <referenceValue6></referenceValue6>
+        <referenceType7></referenceType7>
+        <referenceName7></referenceName7>
+        <referenceValue7></referenceValue7>
+        <referenceType8></referenceType8>
+        <referenceName8></referenceName8>
+        <referenceValue8></referenceValue8>
+        <referenceType9></referenceType9>
+        <referenceName9></referenceName9>
+        <referenceValue9></referenceValue9>
+        <referenceType10></referenceType10>
+        <referenceName10></referenceName10>
+        <referenceValue10></referenceValue10>
+        <clusters />
+        <grammars />
+      </sheet>
+    </sheets>
+    <documents>
+      <document>
+        <documentName />
+        <documentDisplayName />
+        <documentIcon />
+        <documentSaveType />
+        <documentMobileSave />
+        <useEndTime />
+        <referRole />
+      </document>
+    </documents>
+    <schedules>
+      <schedule>
+        <taskId />
+        <user />
+        <startDate />
+        <endDate />
+        <comment1 />
+        <comment2 />
+        <autoDownload />
+      </schedule>
+    </schedules>
+    <notice>
+      <icon />
+      <messageHeader />
+      <messageBody />
+      <imageHeader />
+      <url />
+      <useStartDate />
+      <useEndDate />
+      <imageFileName />
+    </notice>
+  </top>
+</conmas>
