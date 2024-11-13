@@ -19,6 +19,7 @@ AZURE_OPEN_AI_KEY=your_azure_openai_key
 AZURE_OPENAI_ENDPOINT=https://hogehoge.openai.azure.com/
 AZURE_OPENAI_DEPLOYMENT_NAME=your_azure_openai_deployment_name
 AZURE_OPENAI_API_VERSION=2024-00-00-preview
+LLM_MODEL=gpt-4o-mini
 
 ```
 
