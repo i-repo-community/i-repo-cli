@@ -6,7 +6,6 @@ import OpenAI from "openai";
 // OpenAIの場合はこちらを使う
 // const openai = new OpenAI({
 //   apiKey: process.env.OPENAI_API_KEY,
-// model: "gpt-4o-mini",
 // });
 
 // AzureOpenAIの場合はこちらを使う
@@ -18,7 +17,6 @@ const openai = new OpenAI({
     "api-key": process.env.AZURE_OPEN_AI_KEY,
     "Content-Type": "application/json",
   },
-  model: "gpt-4o-mini",
 });
 
 export { openai };
