@@ -2,18 +2,13 @@
 
 ## 概要
 
-irepo-cli2 は、レポートのダウンロードや詳細取得、天気情報の取得などを行う CLI ツールです。
-
-## フォルダ構成
-
-.DS_Store .env cli.js commands/ ask.js DownloadCsv.js GetReportDetail.js weather.js index.js package.json utils/ openai.js sessionManager.js toolsConfig.js
+i-Repo CLI Copilot は、レポートのダウンロードや詳細取得、天気情報の取得などを行う CLI ツールです。
 
 ### 各ファイルの役割
 
 - `.env`: 環境変数を定義するファイル。
 - `cli.js`: CLI ツールのエントリーポイント。コマンドの読み込みと実行を行います。
-- `index.js`: ユーザー入力を解釈し、適切なコマンドを実行します。
-- `package.json`: プロジェクトの依存関係やスクリプトを定義するファイル。
+- `ai.js`: ユーザー入力を解釈し、適切なコマンドを実行します。
 
 #### `commands/` フォルダ
 
