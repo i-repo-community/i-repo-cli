@@ -1,6 +1,8 @@
 import inquirer from "inquirer";
 import { openai } from "./utils/openai.js";
 import { toolsConfig } from "./utils/toolsConfig.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 // グローバル状態
 let memory = [];
@@ -187,6 +189,7 @@ async function handleConversation(input) {
 
   try {
     const response = await openai.chat.completions.create({
+      model: process.env.LLM_MODEL,
       messages: memory,
       tools: toolsConfig,
       tool_choice: "auto",
