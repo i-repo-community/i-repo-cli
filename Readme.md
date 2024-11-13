@@ -1,4 +1,4 @@
-# irepo-cli2
+# irepo-cli
 
 ## 概要
 
