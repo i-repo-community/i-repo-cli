@@ -2,23 +2,6 @@ export const toolsConfig = [
   {
     type: "function",
     function: {
-      name: "weather",
-      description: "指定された場所の天気情報を取得します。",
-      parameters: {
-        type: "object",
-        properties: {
-          location: {
-            type: "string",
-            description: "天気情報を取得する場所の名前",
-          },
-        },
-        required: ["location"],
-      },
-    },
-  },
-  {
-    type: "function",
-    function: {
       name: "GetReportDetail",
       description: "特定の帳票ID(Top ID)の詳細を取得します。",
       parameters: {
