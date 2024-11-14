@@ -12,9 +12,9 @@ i-Repo CLI Copilot は i-Reporter の API をコマンド操作で利用可能�
 
 ```
 OPENAI_API_KEY=your_openai_api_key
-API_BASE_URL=https://hogehoge/ConMasAPI/Rests/APIExecute.aspx
-API_USER=your_irepo_user
-API_PASSWORD=your_irepo_user_password
+API_BASE_URL=https://アイレポAPIエンドポイント/ConMasAPI/Rests/APIExecute.aspx
+API_USER=アイレポユーザー名
+API_PASSWORD=アイレポユーザーパスワード
 AZURE_OPEN_AI_KEY=your_azure_openai_key
 AZURE_OPENAI_ENDPOINT=https://hogehoge.openai.azure.com/
 AZURE_OPENAI_DEPLOYMENT_NAME=your_azure_openai_deployment_name
