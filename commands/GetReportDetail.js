@@ -1,7 +1,6 @@
 import axios from "axios";
 import { getSession } from "../utils/sessionManager.js";
 import dotenv from "dotenv";
-import { parseString } from "xml2js"; // 修正
 
 dotenv.config();
 
@@ -29,15 +28,9 @@ async function getReportDetail(topId) {
       }
     );
 
-    const result = await new Promise((resolve, reject) => {
-      parseString(response.data, (err, result) => {
-        if (err) reject(err);
-        else resolve(result);
-      });
-    });
-    console.log(JSON.stringify(result, null, 2));
+    console.log(response.data);
 
-    return result;
+    return response.data;
   } catch (error) {
     console.error("レポート取得失敗:", error);
     throw error;
