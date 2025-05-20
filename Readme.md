@@ -69,6 +69,14 @@ node cli　[command] [options]
 node cli GetReportFile pdf -r 42337
 ```
 
+### テストの実行
+
+```sh
+npm test
+```
+
+上記コマンドで Jest を用いた単体テストを実行できます。
+
 # 免責事項
 
 本ソフトウェア「i-Repo CLI Copilot」は、i-Reporter API を活用したコミュニティ主導のオープンソースプロジェクトとして提供されています。以下の点にご留意ください：
