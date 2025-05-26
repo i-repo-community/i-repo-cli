@@ -12,7 +12,7 @@ let downloadCsv;
 beforeEach(async () => {
   process.env.API_BASE_URL = 'https://example.com/api';
   const mock = new MockAdapter(axios);
-  mock.onPost('').reply(200, 'zipdata');
+  mock.onPost('https://example.com/api').reply(200, 'zipdata');
   jest.spyOn(fs, 'writeFileSync').mockImplementation(() => {});
   ;({ action: downloadCsv } = await import('../commands/DownloadCsv.js'));
 });

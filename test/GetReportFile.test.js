@@ -12,7 +12,7 @@ let getReportFile;
 beforeEach(async () => {
   process.env.API_BASE_URL = 'https://example.com/api';
   const mock = new MockAdapter(axios);
-  mock.onPost('').reply(200, 'filedata', {
+  mock.onPost('https://example.com/api').reply(200, 'filedata', {
     'content-disposition': 'attachment; filename="sample.pdf"',
   });
   jest.spyOn(fs, 'writeFileSync').mockImplementation(() => {});

@@ -11,7 +11,7 @@ let getReportDetail;
 beforeEach(async () => {
   process.env.API_BASE_URL = 'https://example.com/api';
   const mock = new MockAdapter(axios);
-  mock.onPost('').reply(200, '<xml></xml>');
+  mock.onPost('https://example.com/api').reply(200, '<xml></xml>');
   ;({ action: getReportDetail } = await import('../commands/GetReportDetail.js'));
 });
 

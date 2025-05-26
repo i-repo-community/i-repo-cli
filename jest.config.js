@@ -1,3 +1,10 @@
 export default {
-  testEnvironment: 'node'
+  testEnvironment: 'node',
+  extensionsToTreatAsEsm: ['.js'],
+  globals: {
+    'ts-jest': {
+      useESM: true
+    }
+  },
+  transform: {}
 };
